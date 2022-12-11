@@ -1,0 +1,477 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*---------------------------- Header area Start ------------------------  */
+
+
+/*-------------- Banner Area Starat------------  */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-area {
+    background-color: #07070d;
+    padding: 60px 0 60px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-area .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+}
+
+.banner-area .banner-picture img {
+    width: 100%;
+}
+
+.banner-area .banner-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-text h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 80px;
+    margin: 0 0 20px 0;
+}
+
+.button-area {
+    background-color: #b3d71f;
+    padding: 10px 30px;
+    transition: 0.2s;
+
+}
+
+.button-area:hover {
+    color: #255784;
+    background: #3dbafd;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+}
+
+.button-area {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.button-area .fas {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.banner-picture:hover {
+    transform: rotate(10deg);
+}
+
+
+
+
+
+
+
+
+
+/* 
+-------------------------------------------- 
+.button-area:hover {
+    color: #255784;
+    background: #3dbafd;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+}
+
+.button-area a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.button-area .fas {
+    color: #fff;
+}
+
+
+.banner-picture:hover {
+    transform: rotate(10deg);
+}
+
+.banner-picture img {
+    width: 100%;
+}
+ */
+
+
+/* --------------------------Player  Area Start -------------------------- */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.players {
+    background: #9fa7bd;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0 70px 0;
+}
+
+.players-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+}
+
+.player-card {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    min-width: 80%;
+    height: auto;
+    padding: 15px;
+
+}
+
+.player-card h2 {
+    font-size: 28px;
+}
+
+.player-card p {
+    font-size: 16px;
+}
+
+.player-card img {
+    width: 100%;
+    height: 256px;
+}
+
+/*---- ------------------world-cup Section start here  ----------------- */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.world-cup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 28px;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 70px 0;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-area h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.text-area p {
+    font-size: 16px;
+}
+
+.images-area {
+    display: flex;
+    align-items: center;
+}
+
+.images-area img {
+    width: 100%;
+}
+
+/* <!----------------- More Video All Responsive Extra  ----------------> */
+
+.more-video h1 {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(64, 33, 188);
+}
+
+.more-video h1:hover {
+    color: cyan;
+}
+
+.video-fifa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+
+.video-area {
+    width: 100%;
+}
+
+
+
+
+/* <!----------------- Footer Area Start  css------------------------------ --> */
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 70px 0;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 483.87px;
+}
+
+.socials {
+    margin-bottom: 20px;
+}
+
+.socials .fab {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #969BAB;
+    font-size: 18px;
+}
+
+.socials .fab:hover {
+    color: aqua;
+}
+
+.footer-copyright {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*------------ Responsive Disign  Start ---------------- */
+
+/*---------- For Mobail Devices----------- */
+
+
+/* Header Responsive  */
+
+@media only screen and (max-width: 480px) {
+    .banner-area .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 60px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+/* Header Responsive  End  */
+
+
+@media only screen and (max-width: 480px) {
+
+    .banner-area {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        min-height: 500px;
+    }
+
+    .button-area {
+        background-color: #E02C6D;
+        margin-bottom: 20px;
+        transition: 0.2s;
+        text-align: center;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-text h1 {
+
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+    /* ----------------------Player Section ------------------------ */
+
+    .players-cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
+}
+
+/*------------------ World Cup Seation------------------------  */
+@media only screen and (max-width: 480px) {
+    .world-cup {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
+
+    .text-area h1 {
+        font-size: 30px;
+    }
+
+    .text-area p {
+        font-size: 16px;
+    }
+}
+
+/* <!----------------- More Video All Responsive Extra  ----------------> */
+
+@media only screen and (max-width: 480px) {
+
+    .video-fifa {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+
+    }
+
+    .more-video h1 {
+        font-size: 25px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
+
+/* ----------------Footer Area Responsive--------------------  */
+@media only screen and (max-width: 480px) {
+    .footer-logo img {
+        max-width: 300px;
+    }
+}
+
+
+
+/* ------------------Tablet Mode  Responsive ----------- */
+/* ----------------------------- --------------------------------------------  */
+
+/* Player Section  */
+/* Header -area start   */
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .banner-area .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 60px;
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+        line-height: 58px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 966px) {
+    .banner-area .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 60px;
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .banner-area .banner-picture img {
+        width: 80%;
+    }
+}
+
+
+/* Header -area End   */
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .players-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 996px) {
+    .players-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* World Cup  Responsive */
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .world-cup {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
+
+    .text-area h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 996px) {
+    .world-cup {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 28px;
+    }
+
+    .text-area h1 {
+        font-size: 40px;
+    }
+}
+
+/* Footer Area Responsive  */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .footer-logo img {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 996px) {
+    .footer-logo img {
+        max-width: 400px;
+    }
+}
